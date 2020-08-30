@@ -15,7 +15,7 @@ custom:
   stage: ${opt:stage, self:provider.stage}
   # Set the table name here so we can use it while testing locally
   tableName: ${self:custom.stage}-notes
-  test: 123
+  # test: 123
 
 provider:
   name: aws
